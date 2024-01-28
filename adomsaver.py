@@ -4,11 +4,11 @@ import os
 import shutil
 
 
-currentFolder = 'C:/Work/Code/AdomSaverOld/Current'             #Here must be ADOM save folder
+currentFolder = 'C:/Work/Code/AdomSaverOld/Current'             #Replace with ADOM save folder
 backupFolder = 'Stored'                                         #Backup folder
 charName = 'test'                                               #Char name
-currsave = currentFolder + '/' + charName + '.txt'              #Must be .svg instead of .txt 
-bkpsave = backupFolder + '/' + charName + '.txt'                #Same here
+currsave = currentFolder + '/' + charName + '.svg' 
+bkpsave = backupFolder + '/' + charName + '.svg'
 
 #iteration = 0
 
